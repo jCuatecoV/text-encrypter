@@ -1,0 +1,111 @@
+*{
+    background: #E9ECF8;
+    /* Light blue 100 #F3F5FC
+       Light blue 200 #EFF1FA
+       Light blue 300 #E9ECF8*/
+    font-family: Inter;
+    font-size: 32px;    
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.logo {
+    padding-top: 30px;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.campo-texto{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+.campo-texto::placeholder { color: #0A3871;}
+.campo-texto:focus{ outline: none;}
+
+.flotante-der{
+    background: white;
+    display: flexbox;
+    text-align: center;
+    margin-left: 100px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.campo-mensaje{
+    background: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    background-image: url(img/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    padding-left: 30px;
+}
+.campo-mensaje::placeholder{color: #343A40;}
+.campo-mensaje:focus{ outline: none;}
+
+.requerimientos{
+    color: #495057;
+    font-size: 14px;
+}
+
+.btns{
+    display: flex;
+    margin-top: 15px;
+}
+
+.btn-encriptar{
+    border: 1px solid #0A3871;
+    background: #0A3871;
+    border-radius: 24px;
+    color: white;
+    height: 100%;
+    padding: 24px;
+    margin-top: 5;
+    margin-left: 10px;
+    width: 328px;
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    border: 1px solid #0A3871;
+    background: #D8DFE8;
+    border-radius: 24px;
+    height: 100%;
+    padding: 24px;
+    margin-top: 5;
+    margin-left: 10px;
+    width: 328px;
+}
+
+h4{
+    background: white;
+    color: #343A40;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h5{    
+    background: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.copiar{
+    border: 1px solid #0A3871;
+    background: #D8DFE8;
+    border-radius: 24px;
+    height: 50px;
+    padding: 0px;
+    margin-top: 5;
+    margin-left: 0px;
+    width: 250px;
+}
